@@ -111,14 +111,22 @@ o	Switch the relay ON or OFF.
 ### **Connections:**  
 ### **GPIO Pin Connection Table:** 
 |  Device  | 	Raspberry Pi GPIO Pin	  |  Purpose
+---
 |  IR Sensor Output	  | 	GPIO 17		  |  Detect object presence
+---
 |  LDR Sensor Output	  | 	GPIO 27		  |  Detect light intensity
+---
 |  Relay Module	  | 	GPIO 22		  |  Control external load
+---
 |  LED	  | 	GPIO 23		  |  Visual indication
+---
 |  Buzzer	  | 	GPIO 24		  |  Sound alert
+---
 |  VCC	  | 	5V Pin		  |  Power supply
+---
 |  GND	  | 	GND Pin		  |  Common ground
 
+---
 ---
 
 ## **Sample Python Code for Raspberry Pi + Blynk**  
